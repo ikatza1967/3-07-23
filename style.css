@@ -1,0 +1,265 @@
+/* @charset "utf-8"; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* list-style: none; */
+}
+
+
+.home_item{
+    text-align: center;
+    justify-content: center;
+    padding: 2em 02em 0; 
+
+}
+
+header{
+    height: 220px;
+    background-image:url(img/imagen-RV.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    align-items: center
+}
+
+.button{
+    background-color:white;
+    cursor: pointer;
+    padding: 0.375em 0.625em;
+    font-size: 0.625em;
+    color: black;
+
+}
+
+.button3{
+    cursor: pointer;
+    padding: 0.375em 0.625em;
+    font-size: 0.625em;
+}
+
+  #check_menu{
+    display: none;
+  }
+
+  h1{
+    font-weight: 100;
+    font-size:5.625em;
+    padding-left: 2em;
+    color:rgb(241, 182, 104)
+}
+
+.card_item{
+    width: 46%;
+   
+}
+.card{
+    width: 18.75em;
+    background-color: #9c9999;
+    border-radius: 0.3125em;
+    box-shadow: 0 0.125em 0.25em rgba(0, 0, 0, 0.1);
+    padding: 1.25em;
+
+}
+main h2,p{
+    color: black;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.25em;
+}
+.card img{
+     width: 100%;
+     border-radius: 0.3125em;
+     margin-bottom: 0.625em;
+} 
+
+
+button{}
+    
+    
+
+
+
+
+/* FOOTER*/
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(36,33,34,255);
+    /* background-color: rgba(0, 0, 0, 0.825); */
+
+}
+.facebook{
+    width: 1.875em;
+}
+.twitter{
+    width: 2.5em;
+}
+.instagram{
+    width: 1.875em;
+}
+
+  footer a,p{
+    color:rgb(199, 197, 197);
+    
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------- FORMULARIO ------------------- */
+
+.form{
+    text-align: center;
+    gap: 2em;
+    width: 40%;
+    padding: 2em 0em 2em 2em;
+    align-items: center;
+    border-radius: 50px;
+    background: #f8f6f6;
+    box-shadow:  -20px 20px 60px #dfdede,
+            20px -20px 60px #ffffff;
+
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.formulario{
+    justify-content: left;
+    text-align: left;
+    width: 90%;
+    gap: 1.5em;
+}
+
+#personal_data{
+    justify-content: flex-start;
+    
+}
+
+.personal_data_item{
+    width: 45%;
+}
+
+
+
+input[type=text], select, textarea{
+     border-top: none;
+     border-left: none;
+     border-right: none;
+     background: #f8f6f6;
+     border-color: gray 2px solid;
+}
+
+form input[type=submit]{
+    background-color: black;
+    width: 30%;
+    color: white;
+    height: 3em;
+    border-radius: 0.2em;
+    font-weight:700;
+    font-size: large;
+    border: none;
+}
+
+textarea{ 
+    height: 1.5em;
+    width: 90%;
+    
+}
+
+input [type=text]{
+    width: 80%;
+}
+
+select{
+    width: 70%;
+}
+
+.whoare{
+    gap: 1em;
+}
+.whoare_item{
+    gap: 1em;
+    justify-content: left;
+
+}
+
+#data_piltic{
+    gap: 0.7em;
+    justify-content: left;
+}
+
+.bnt--red{
+    background-color: #d52349;
+}  
+
+
+
+
+
+/*--------------------------RESPONSIVE------------------------------*/
+ @media screen and (max-width: 576px) {
+    /* Estilos para dispositivos móviles */
+    .home_item {
+        padding: 2em 0;
+    }
+
+    header {
+        height: 22%;
+        /* Ajusta la altura según tus necesidades */
+    }
+
+    .button,
+    .button3 {
+        /* Ajusta el padding y el tamaño de fuente según tus necesidades */
+    }
+
+    h1 {
+        /* Ajusta el tamaño de fuente según tus necesidades */
+    }
+
+    .card_item {
+        /* Elimina el ancho */
+    }
+
+    .card {
+        /* Ajusta el ancho y el padding según tus necesidades */
+    }
+
+    main {
+        /* Ajusta el padding según tus necesidades */
+    }
+
+    .card img {
+        /* Elimina el margen inferior */
+    }
+
+    footer {
+        /* Ajusta el padding según tus necesidades */
+    }
+}
+@media screen and (max-width: 760px)
+
+  
+    
+    
+
+
+@media screen and (max-width: 1200px)
+     
+      body{
+        font: size 120px;
+      }
